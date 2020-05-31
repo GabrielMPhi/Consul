@@ -1,6 +1,3 @@
-from city import City
-from partie import Partie
-
 class Player:
 
     def __init__(self, name, age, health, wealth, influence, court, virtues, vices, traits):
@@ -76,6 +73,6 @@ class Player:
             background_choice = int(input("Choix :"))
             if background_choice == 1:
                 print("Ok")
-            background_joueur = False
+            background_player = False
             print("##### fin du passé #####")
         return self
